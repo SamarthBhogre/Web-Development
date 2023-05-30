@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: wait;
+}
+h1 {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
+}
+#myVideo {
+  position: fixed;
+  z-index: -1;
+}
+.fixed-bg {
+  /* background-image: url("bg.jpeg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* height: 100vh; */
+}
+.grid-box {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+.box {
+  background-color: rgba(255, 255, 0, 0.363);
+  height: 200px;
+  /* width: 400px; */
+  border: 2px solid green;
+}
+.blank-bg {
+  margin-top: 200px;
+  background-color: transparent;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 60%;
+  gap: 50px;
+  padding: 20px;
+}
+.blank-box {
+  color: yello;
+  height: 200px;
+  background-color: #ffff001a;
+  border: 2px solid white;
+  /* filter: blur(10px); */
+  backdrop-filter: blur(10px);
+  transition-duration: 0.3s;
+}
+.blank-box:hover {
+  filter: blur(0);
+  backdrop-filter: blur(0px);
+}
+.parent-box {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto 100px auto;
+  background-color: blue;
+  pointer-events: none;
+  display: grid;
+  place-content: center;
+}
+.parent-box:hover {
+  background-color: blueviolet;
+}
+.child-box {
+  width: 280px;
+  height: 280px;
+  background-color: bisque;
+  display: grid;
+  place-content: center;
+  pointer-events: fill;
+}

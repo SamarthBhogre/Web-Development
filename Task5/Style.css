@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+
+}
+
+.heading {
+    padding-top: 25px;
+}
+
+.parah {
+    columns: 4;
+}
+
+button {
+    width: 90px;
+    height: 45px;
+    background-color: forestgreen;
+    position: sticky;
+    bottom: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.child {
+    width: 200px;
+    height: 150px;
+    background-color: gold;
+    border-radius: 12px;
+
+}
+
+.child2 {
+    width: 200px;
+    height: 150px;
+    background-color: gold;
+    border-radius: 12px;
+
+}

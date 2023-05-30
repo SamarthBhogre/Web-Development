@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+h1 {
+    color: white;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading {
+    width: 100%;
+    padding-top: 200px;
+    color: white;
+}
+
+.parah {
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+}
+
+ video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.animation {
+    height: 100%;
+    background-color: black;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+@keyframes moving {
+    0%{
+
+    }
+    10% {
+
+    }
+    
+}

@@ -1,0 +1,292 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border-style: solid;
+    border-radius: 7px;
+    width: 1349px;
+    height: 1050px;
+}
+
+header {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+.box-row1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box1 {
+    border-style: solid;
+    width: 57px;
+    height: 20px;
+    background-color: blue;
+
+}
+
+.box1:hover {
+    background-color: blueviolet;
+    cursor: context-menu;
+}
+
+.box2 {
+    border-style: solid;
+    width: 60px;
+    height: 20px;
+    background-color: blue;
+}
+
+.box2:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.box3 {
+    border-style: solid;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+
+.box3:hover {
+    background-color: blueviolet;
+    cursor: help;
+}
+
+.box4 {
+    border-style: solid;
+    width: 76px;
+    height: 20px;
+    background-color: blue;
+}
+
+.box4:hover {
+    background-color: blueviolet;
+    cursor: wait;
+}
+
+.box5 {
+    border-style: solid;
+    width: 40px;
+    height: 20px;
+    background-color: blue;
+}
+
+.box5:hover {
+    background-color: Red;
+    cursor: cell;
+}
+
+.collections {
+    color: blue;
+    font-size: larger;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.collections:active {
+    color: blueviolet;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box6 {
+    width: 1300px;
+    height: 250px;
+    z-index: 1;
+    border: 5px solid black;
+    background-image: url(Icons/carinanebula3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 {
+    font-weight: Bold;
+}
+
+.input1:focus {
+    background-color: blueviolet;
+}
+
+.input2 {
+    font-weight: Bold;
+}
+
+.input2:focus {
+    background-color: blueviolet;
+}
+
+.submit:focus {
+    background-color: red;
+}
+
+.box-row2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.box7 {
+    width: 650px;
+    height: 250px;
+    background-image: url(Icons/pexels-photo-1486974.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 7px;
+}
+
+iframe {
+    width: 607px;
+}
+
+.iframe {
+    width: auto;
+}
+
+.box8 {
+    display: flex;
+    width: 635px;
+    height: 250px;
+    background-image: url(Icons/pexels-pixabay-206359.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 7px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links {
+    color: blanchedalmond;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: rgb(0, 255, 0);
+}
+
+.box-row3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box9 {
+
+    width: 510px;
+    height: 250px;
+    background-image: url(Icons/pexels-pixabay-268533.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Email-compose {
+    align-items: center;
+}
+
+.input3 {
+    font-weight: bold;
+}
+
+.input3:focus {
+    background-color: blue;
+}
+
+.input4 {
+    font-weight: bold;
+}
+
+.input4:focus {
+    background-color: blue;
+}
+
+.Message:focus {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.box10 {
+    left: 530px;
+    width: 778px;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 7px;
+    display: flex;
+    background-image: url(Icons/photo-1495344517868-8ebaf0a2044a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.internal {
+    width: 33%;
+    baCkground-image: url(Icons/hillside.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 5px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.box11 {
+    display: flex;
+    width: 98.2%;
+    height: 170px;
+    border: 5px solid black;
+    border-radius: 7px;
+    background-image: url(Icons/web-182027161.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    align-items: center;
+}

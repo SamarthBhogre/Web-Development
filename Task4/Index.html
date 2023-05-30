@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https:// fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <title>Basic Design</title>
+    <script>
+        function validateForm() {
+            var username = document.forms["loginForm"]["username"].value;
+            var password = document.forms["loginForm"]["password"].value;
+
+            if (username === "" || password === "") {
+                // Display an error message
+                document.getElementById("error").innerHTML = "Please enter both username and password.";
+                return false; // Prevent form submission
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="Icons/Screenshot 2023-05-07 101749.png">
+        <div class="box-row1">
+            <div class="box1">Home</div>
+            <div class="box2">About</div>
+            <div class="box3">Contact us </div>
+            <div class="box4">Services</div>
+        </div>
+        <div class="box5">Exit</div>
+    </header>
+    <h1 class="collections">collections</h1>
+    <div class="login-page">
+        <div class="box6">
+            <center>
+                <form>
+                    <h2 class="dummy">Dummy Login Page</h2>
+                    <label for="fname">Username:</label><br>
+                    <input class="input1" type="text" id="username" name="username"><br>
+                    <label for="lname">Password:</label><br>
+                    <input class="input2" type="password" id="password" name="password"><br><br>
+                    <input class="submit" type="submit" value="Submit">
+                </form>
+            </center>
+        </div>
+    </div>
+    <div class="box-row2">
+        <div class="box7">
+            <h1 class="iframe">iframe</h1>
+            <iframe src="https://www.crestinfosystems.com" title="Google"></iframe>
+        </div>
+        <div class="box8">
+            <h1>Visited & Non-Visited language</h1>
+            <div class="links">
+                <a href="https://www.Google.com" target="_blank">Google</a><br>
+                <a href="https://www.youtube.com" target="_blank">Youtube</a><br>
+                <a href="https://open.spotify.com" target="_blank">Spotify</a>
+            </div>
+        </div>
+    </div>
+    <div class="box-row3">
+        <div class="box9">
+            <h1 class="Email"> Form Tags </h1>
+            <form name="loginForm" onsubmit="return validateForm()" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+            </form>
+            <p id="error" style="color: red;"></p>
+        </div>
+        <div class="box10">
+            <div class="internal">Box1</div>
+            <div class="internal">Box2</div>
+            <div class="internal">Box3</div>
+        </div>
+    </div>
+    <div class="box11">
+        <marquee behavior="scrolling" direction="up" height="100px" t>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Molestiae
+            sunt quia vel laboriosam adipisci. Natus dignissimos quaerat sapiente consequuntur, modi a consectetur
+            officiis sed suscipit voluptatibus, nihil, adipisci nisi facilis.</marquee>
+    </div>
+    </div>
+</body>
+
+</html>
